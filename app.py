@@ -5,7 +5,7 @@ import tempfile
 import sys
 import boto3
 import streamlit as st
-from fpdf import FPDF 
+from fpdf2 import FPDF 
 ## We will be using Titan Embeddings Model To generate Embedding
 
 from langchain_community.embeddings.bedrock import BedrockEmbeddings
